@@ -1,0 +1,21 @@
+#paymentForm {
+  select {
+    border-color: $gray-01;
+    height: 35px !important;
+    text-indent: 8px;
+  }
+
+  #expiryYear_div, #expiryMonth_div {
+    width: 50%;
+    float: left;
+  }
+
+  #expiryMonth_div {
+    padding-right: 10px;
+  }
+
+  #expiryYear_div {
+    padding-left: 10px;
+    margin-left: 0;
+  }
+}
